@@ -1,13 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align:left;
-    min-width: 1150px;
+    min-width: 1174px;
     padding: 0;
     margin: 0;
     background-image: url(resources/background.svg);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 .ProfilePanel {
@@ -53,6 +54,7 @@ body {
     box-shadow: 0 3px 15px 0 rgba(41, 47, 126, 0.37);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     backdrop-filter: blur(10px);
+    height: 239px;
 }
 
 .ContainerDiv {
@@ -101,7 +103,7 @@ h5 {
     font-size: 25px;
     margin: 0;
     margin-top: 10px;
-    color:rgba(63, 63, 63, 0.7)
+    color:rgba(57, 83, 168, 0.7)
 }
 
 p {
@@ -114,11 +116,12 @@ h1 {
     margin-right: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    color:rgba(57, 83, 168, 0.7)
 }
 
 .ProfileSubtext {
     font-size: 12px;
-    color:rgb(114, 114, 114);
+    color:rgb(89, 116, 129);
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -130,4 +133,19 @@ h1 {
 details > summary {
     cursor: pointer;
     color: rgb(0, 132, 255);
+}
+
+details {
+    transition: height 200ms;
+}
+
+.TechText {
+    color:rgb(89, 116, 129);
+}
+
+.TopLinks {
+    float: right;
+}
+.TopLinks:hover {
+    color: rgb(89, 116, 129);
 }

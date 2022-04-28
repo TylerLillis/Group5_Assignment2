@@ -14,12 +14,12 @@
         <!-- Top bar of website -->
         <div style="overflow: auto; margin: 25px; margin-top: 20px;">
             <b><h2 style="float: left">Assignment 2: The IT World</h2></b>
-            <a href="#projectidea"><h4 style="float: right">Project Idea</h4></a>
-            <a href="#ittechs"><h4 style="float: right">IT Technologies</h4></a>
-            <a href="#itwork"><h4 style="float: right">IT Work</h4></a>
-            <a href="#industrydata"><h4 style="float: right">Industry Data</h4></a>
-            <a href="#idealjobs"><h4 style="float: right">Ideal Jobs</h4></a>
-            <a href="#profiles"><h4 style="float: right">Profiles</h4></a>
+            <a href="#projectidea"><h4 class="TopLinks">Project Idea</h4></a>
+            <a href="#ittechs"><h4 class="TopLinks">IT Technologies</h4></a>
+            <a href="#itwork"><h4 class="TopLinks">IT Work</h4></a>
+            <a href="#industrydata"><h4 class="TopLinks">Industry Data</h4></a>
+            <a href="#idealjobs"><h4 class="TopLinks">Ideal Jobs</h4></a>
+            <a href="#profiles"><h4 class="TopLinks">Profiles</h4></a>
         </div>
         
         <!-- Profiles section -->      
@@ -43,7 +43,7 @@
                 <p class="ProfileSubtext">s3921425 • s3921425@student.rmit.edu.au</p>
                 <p>Hello, my name is Chelsie Anday. I am born in the Philippines but graduated high school in the UAE; I can speak both Tagalog and English with proficiency.  I enjoy melting my brain over video games, books, and drawing, as well as technology which is why I decided to pursue IT.  I look forward to learning about many facets of technology throughout this course and beyond!</p>
                 <a class="ProfileSite" target="_blank" href="site">My Website</a>
-                <details><summary>Team profile</summary>
+                <details><summary style="margin-top: 37px">Team profile</summary>
                     Placeholder
                 </details>
             </div>
@@ -78,7 +78,7 @@
                 <p class="ProfileSubtext">s3947709 • s3947709@student.rmit.edu.au</p>
                 <p>Hi, my name is Tyler Lillis. I’m Australian born with close Maltese background but have absolutely no clue how to speak a word of that language anymore even though I tried learning. I am massive basketball fan and always have been, but also really enjoy playing around with technology and learning new things about it constantly!</p>
                 <a class="ProfileSite" target="_blank" href="site">My Website</a>
-                <details><summary>Team profile</summary>
+                <details><summary style="margin-top: 37px">Team profile</summary>
                     Placeholder
                 </details>
             </div>
@@ -128,75 +128,81 @@
             <!-- IT Work -->
             <h3 style="margin-top: 100px" id="itwork">IT Work</h3>
             <div class="MainPanel">
-                <img src="resources/PlaceholderProfile.png" style="float:right; width: 130px">
-                <h4>Interview with [name]</h4>
-                <a href="none"><h4>Link to full interview</h4></a>
-                <p>Placeholder Text</p>
+                <img src="resources/PlaceholderProfile.png" style="float:right; width: 130px; border-radius: 50%">
+                <h5 style="margin-bottom: 5px">Interview with [name]</h5>
+                <a href="none">Link to full interview</a>
+                <p style="margin-top: 15px;">Placeholder Text</p>
             </div>
         </div>
         
         <!-- IT Technologies -->
         <div class="ContainerDiv" id="ittechs">
             <h3 style="margin-bottom: 0px; margin-left: 10px">IT Technologies</h3>
-            <a href="none">
+            <a href="cybersecurity.html">
             <div class="TechPanel">
-                <img src="resources/PlaceholderImage.png" style="width: 200px; height: 150px">
-                <h5>1</h5>
-                <p>Click to read</p>
+                <img src="resources/CybersecurityIcon.svg" style="width: 200px; height: 150px">
+                <h5>Cybersecurity</h5>
+                <p class="TechText">Click to read</p>
             </div>
             </a>
 
-            <a href="none">
+            <a href="blockchainandcrypto.html">
                 <div class="TechPanel">
-                    <img src="resources/PlaceholderImage.png" style="width: 200px; height: 150px">
-                    <h5>1</h5>
-                    <p>Click to read</p>
+                    <img src="resources/BlockchainAndCryptoIcon.svg" style="width: 200px; height: 150px">
+                    <h5>Blockchain and Crypto</h5>
+                    <p class="TechText">Click to read</p>
                 </div>
                 </a>
             
-            <a href="none">
+            <a href="machinelearning.html">
             <div class="TechPanel">
-                <img src="resources/PlaceholderImage.png" style="width: 200px; height: 150px">
-                <h5>1</h5>
-                <p>Click to read</p>
+                <img src="resources/MachineLearningIcon.svg" style="width: 200px; height: 150px">
+                <h5>Machine Learning</h5>
+                <p class="TechText">Click to read</p>
             </div>
             </a>
             
-            <a href="none">
+            <a href="robots.html">
                 <div class="TechPanel">
-                    <img src="resources/PlaceholderImage.png" style="width: 200px; height: 150px">
-                    <h5>1</h5>
-                    <p>Click to read</p>
+                    <img src="resources/RobotsIcon.svg" style="width: 200px; height: 150px">
+                    <h5>Robots</h5>
+                    <p class="TechText">Click to read</p>
                 </div>
                 </a>
         </div>
 
         <!-- Project Idea -->
         <div class="ContainerDiv" id="projectidea">
-            <h3 style="margin-left: 10px">Project Idea</h3>
+            <h3 style="margin-left: 20px">Project Idea</h3>
             <div class="MainPanel">
+                <h5>Overview</h5>
                 <p>Placeholder text</p>
             </div>
 
             <div class="ContainerDiv" style="margin-bottom: 20px;">
                 <div class="ProjectPanel">
-                    <p>1</p>
+                    <h5>Motivation</h5>
+                    <p>Placeholder text</p>
                 </div>
                 <div class="ProjectPanel">
-                    <p>1</p>
+                    <h5>Tools and Technologies</h5>
+                    <p>Placeholder text</p>
                 </div>
             </div>
 
             <div class="MainPanel">
+                <h5>Description</h5>
                 <p>Placeholder text</p>
             </div>
 
             <div class="ContainerDiv" style="margin-bottom: 120px;">
                 <div class="ProjectPanel">
-                    <p>1</p>
+                    <h5>Skills Required</h5>
+                    <p>Placeholder text</p>
                 </div>
                 <div class="ProjectPanel">
-                    <p>1</p>
+                    <h5>Outcome</h5>
+                    <p>Placeholder text</p>
                 </div>
             </div>
         </div>
