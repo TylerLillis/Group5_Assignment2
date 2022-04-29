@@ -4,7 +4,7 @@ body {
     min-width: 1174px;
     padding: 0;
     margin: 0;
-    background-image: url(resources/background.svg);
+    background-image: url(resources/background.png);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: cover;
