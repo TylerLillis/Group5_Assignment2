@@ -107,7 +107,7 @@ h5 {
     color:rgba(57, 83, 168, 0.7)
 }
 
-p {
+p, li {
     margin: 0;
     line-height: 1.5;
     font-size: 1rem;
